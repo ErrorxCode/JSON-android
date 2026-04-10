@@ -20,9 +20,49 @@ This repository provides a forked and refactored version of the JSON-Java librar
 * Maintains the original functionality and API of JSON-Java.
 * Easy to integrate into Android projects.
 
-## Installation
+## 💉Implimentation 
+[![](https://jitpack.io/v/ErrorxCode/JsonAndroid.svg)](https://jitpack.io/#ErrorxCode/JsonAndroid)
+### Gradle :-
+Add it in your root build.gradle at the end of repositories:
 
-Add the library to your Android project as a dependency. You can include it as a local library or build it into your project.
+```css
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+
+**Step 2.**  Add the dependency
+
+```css
+	dependencies {
+	        implementation 'com.github.ErrorxCode:JsonAndroid:1.0'
+	}
+```
+
+### Maven :-
+**Step 1**. Add to project level file
+```markup
+	<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
+```
+
+**Step 2.**  Add the dependency
+
+```markup
+	<dependency>
+	    <groupId>com.github.ErrorxCode</groupId>
+	    <artifactId>JsonAndroid</artifactId>
+	    <version>1.0</version>
+	</dependency>
+```
+
 
 ## Usage
 
