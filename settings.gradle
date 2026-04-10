@@ -19,14 +19,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven { url 'https://www.jitpack.io' }
     }
 }
 
 rootProject.name = "SDKs & Lib"
-include ':app'
-include ':CloremDB'
-include ':ClorastoreDB'
-include ':JxInsta:web'
-include ':JxInsta:mobile'
-include ':JsonAndroid'
+include ':JsonPort'
