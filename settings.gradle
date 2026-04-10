@@ -23,4 +23,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "SDKs & Lib"
-include ':JsonPort'
+include ':JsonAndroid'
