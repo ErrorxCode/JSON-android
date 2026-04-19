@@ -25,7 +25,7 @@ This repository provides a forked and refactored version of the JSON-Java librar
 ### Gradle :-
 Add it in your root build.gradle at the end of repositories:
 
-```css
+```groovy
 	allprojects {
 		repositories {
 			...
@@ -35,16 +35,15 @@ Add it in your root build.gradle at the end of repositories:
 ```
 
 **Step 2.**  Add the dependency
-
-```css
+```groovy
 	dependencies {
-	        implementation 'com.github.ErrorxCode:JsonAndroid:1.0'
+	        implementation 'com.github.errorxcode:json-android:1.0'
 	}
 ```
 
 ### Maven :-
 **Step 1**. Add to project level file
-```markup
+```xml
 	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
@@ -55,10 +54,10 @@ Add it in your root build.gradle at the end of repositories:
 
 **Step 2.**  Add the dependency
 
-```markup
+```xml
 	<dependency>
 	    <groupId>com.github.ErrorxCode</groupId>
-	    <artifactId>JsonAndroid</artifactId>
+	    <artifactId>json-android</artifactId>
 	    <version>1.0</version>
 	</dependency>
 ```
