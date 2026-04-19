@@ -37,7 +37,7 @@ Add it in your root build.gradle at the end of repositories:
 **Step 2.**  Add the dependency
 ```groovy
 	dependencies {
-	        implementation 'com.github.errorxcode:json-android:1.0'
+	        implementation 'com.github.Errorxcode:json-android:1.0'
 	}
 ```
 
@@ -56,7 +56,7 @@ Add it in your root build.gradle at the end of repositories:
 
 ```xml
 	<dependency>
-	    <groupId>com.github.ErrorxCode</groupId>
+	    <groupId>com.github.Errorxcode</groupId>
 	    <artifactId>json-android</artifactId>
 	    <version>1.0</version>
 	</dependency>
